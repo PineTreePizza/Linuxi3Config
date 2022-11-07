@@ -176,7 +176,7 @@ exec_always "setxkbmap -model pc104 -layout us,ru -variant ,, -option grp:alt_sh
 
 exec picom
 exec dropbox
-exec_always --no-startup-id feh --bg-scale Downloads/Wallpaper.png
+exec_always --no-startup-id feh --bg-scale wlppr.png
 #exec waterfox/waterfox
 #assign [class="waterfox"] $ws1
 #exec discord
