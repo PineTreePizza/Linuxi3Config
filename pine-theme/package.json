@@ -1,0 +1,27 @@
+{
+  "name": "pine-theme",
+  "displayName": "Pine Theme",
+  "description": "Yes.",
+  "version": "1.0.3",
+  "author": {
+    "name": "Pine",
+    "email": "pinetreeonpizza@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "David Capello",
+      "email": "davidcapello@gmail.com",
+      "url": "http://davidcapello.com/"
+    }
+  ],
+  "publisher": "Pine",
+  "license": "CC-BY-4.0",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      { "id": "Pine", "path": "."}
+    ]
+  }
+}
