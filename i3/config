@@ -25,8 +25,8 @@ exec --no-startup-id dex --autostart --environment i3
 
 hide_edge_borders both
 for_window [class="^.*"] border pixel 2 
-gaps inner 5
-gaps outer 2
+gaps inner 12
+gaps outer -7
 
 bindsym $mod+Shift+Ctrl+L exec i3lock --color 6e2255
 
@@ -160,12 +160,9 @@ bindsym $mod+Shift+r restart
 bindsym XF86MonBrightnessUp exec --no-startup-id light -A 5
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5
 
-
-exec .config/i3/start.sh
-
-bindsym $mod+Ctrl+Shift+E exec .config/i3/exit.sh
 bindsym $mod+Shift+E exit
 
+bindsym $mod+Shift+Ctrl+N exec --no-startup-id nemo
 bindsym $mod+Shift+Ctrl+W exec --no-startup-id waterfox/waterfox
 bindsym $mod+Shift+Ctrl+S exec --no-startup-id steam
 bindsym $mod+Shift+Ctrl+D exec --no-startup-id discord
