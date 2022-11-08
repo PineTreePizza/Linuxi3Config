@@ -217,12 +217,12 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 
 
-set $bg-color 	         #a34350
-set $inactive-bg-color   #6e2255
-set $text-color          #f8dab1
-set $urgent-text         #ffffff
-set $inactive-text-color #ff92b1
-set $urgent-bg-color     #d6bf80
+set $bg-color 	         #522571
+set $inactive-bg-color   #27202c
+set $text-color          #d14168
+set $urgent-text         #fee3ee
+set $inactive-text-color #622079
+set $urgent-bg-color     #d14168
 
 set $indicate            #FF23FE
 
