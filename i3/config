@@ -165,6 +165,7 @@ bindsym $mod+Shift+E exit
 bindsym $mod+Shift+Ctrl+N exec --no-startup-id pcmanfm
 bindsym $mod+Shift+Ctrl+W exec --no-startup-id min
 bindsym $mod+Shift+Ctrl+S exec --no-startup-id steam
+bindsym $mod+Shift+Ctrl+E exec --no-startup-id subl
 bindsym $mod+Shift+Ctrl+D exec --no-startup-id discord
 bindsym Print exec --no-startup-id flameshot gui
 
