@@ -28,7 +28,7 @@ for_window [class="^.*"] border pixel 2
 gaps inner 12
 gaps outer -7
 
-bindsym $mod+Shift+Ctrl+L exec i3lock -i $HOME/.config/i3/Lock.png -e
+bindsym $mod+Shift+Ctrl+L exec i3lock --color 6e2255
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -165,7 +165,7 @@ bindsym $mod+Shift+E exit
 bindsym $mod+Shift+Ctrl+N exec --no-startup-id pcmanfm
 bindsym $mod+Shift+Ctrl+W exec --no-startup-id vivaldi-stable
 bindsym $mod+Shift+Ctrl+S exec --no-startup-id steam
-bindsym $mod+Shift+Ctrl+E exec --no-startup-id emacs
+bindsym $mod+Shift+Ctrl+E exec --no-startup-id emacs -q -l .config/emacs/init.el
 bindsym $mod+Shift+Ctrl+D exec --no-startup-id discord
 bindsym Print exec --no-startup-id flameshot gui
 
