@@ -4,7 +4,8 @@
 (tool-bar-mode -1)
 (tooltip-mode  -1)
 (set-fringe-mode 20)
-(display-line-numbers-mode 1)
+(global-display-line-numbers-mode 1)
+(line-number-mode 1)
 (electric-pair-mode 1)
 (setq electric-pair-pairs
       '(
